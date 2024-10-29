@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const API_URL_REST = 'https://yourAPIaddress'
-// const API_KEY = 'tD7c3Nwki0mZh4Y6kr1rmlnQMNUv0hicsT0lgeMbcNI='; // Replace with your actual API key
+// const API_KEY = 'yourAPIkey'; // Replace with your actual API key
 
 const apiRest = axios.create({
   baseURL: API_URL_REST,
